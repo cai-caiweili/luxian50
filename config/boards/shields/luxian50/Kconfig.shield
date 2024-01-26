@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_LUXIAN50_LEFT
+    def_bool $(shields_list_contains,luxian50_left)
+
+config SHIELD_LUXIAN50_RIGHT
+    def_bool $(shields_list_contains,luxian50_right)

@@ -1,0 +1,16 @@
+if SHIELD_LUXIAN50_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "luxian50"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_LUXIAN50_LEFT || SHIELD_LUXIAN50_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
