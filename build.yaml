@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: alice40_left
+    shield: luxian50_left
   - board: nice_nano_v2
-    shield: alice40_right
+    shield: luxian50_right
   - board: nice_nano_v2
     shield: settings_reset
