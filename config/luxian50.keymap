@@ -20,7 +20,7 @@
         layer_1 {
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &none         &none         &none              &none    &none
-&bt BT_CLR    &bootloader   &kp B         &to 4          &none         &none         &none         &none              &none    &none
+&bt BT_CLR    &bootloader   &kp B         &to 1          &none         &none         &none         &none              &none    &none
 &none         &none         &none         &none          &none         &kp C_VOL_DN  &kp C_VOL_UP  &kp DOUBLE_QUOTES  &kp SQT  &kp COLON
 &none         &none         &none         &kp LC(LG(F))  &none         &none         &out OUT_TOG  &trans             &kp DOT  &kp QUESTION
 &bootloader   &trans        &trans        &trans         &trans        &trans        &trans        &trans             &trans   &trans
