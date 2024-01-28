@@ -39,11 +39,11 @@
 
         layer_3 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none             &none             &none              &none
+&none  &none  &none  &none  &none  &none  &none             &mwh SCROLL_UP    &none              &none
+&none  &none  &none  &none  &none  &none  &mwh SCROLL_LEFT  &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT  &none
+&none  &none  &none  &none  &none  &none  &none             &none             &none              &none
+&none  &none  &none  &none  &none  &none  &none             &none             &none              &none
             >;
         };
 
