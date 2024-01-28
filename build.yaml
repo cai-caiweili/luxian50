@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: pro_micro
     shield: luxian50_left
-  - board: nice_nano_v2
+  - board: pro_micro
     shield: luxian50_right
-  - board: nice_nano_v2
+  - board: pro_micro
     shield: settings_reset
